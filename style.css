@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    background-color: #1c1c1c;
+    background-image: url("img/background_sunset.jpg");
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /*-webkit-box-shadow: 0px -15px 30px 0px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 0px -15px 30px 0px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 0px -15px 30px 0px rgba(34, 60, 80, 0.6) inset; 
+    (внутренние тени на блок)*/
+}
+.page-header {
+    margin: 0 0 100px;
+    padding: 40px 0 40px;
+}
+.hfbox {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: right;
+}
+.vk {
+    color: #cacaca;
+    transition: color 0.5s ease-in;
+    text-decoration: none;
+}
+.vk:hover {
+    color: #606060;
+}
+.heading-box {
+    max-width: 1408px;
+    text-align: center;
+    margin: 0 auto 550px;
+}
+.heading {
+    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    
+}
+.heading h1 {
+    margin: 2em;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 44px;
+    font-weight: 400;
+}
+.heading p {
+    font-size: 24px;
+    font-weight: 400;
+}
+nav {
+    margin: 0 0 120px;
+    padding: 0 0 40px;
+}
+.education {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 928px;
+    display: flex;
+    justify-content: space-between;
+}
+.education a {
+    color: #cacaca;
+    transition: color 0.5s ease-in;
+    text-decoration: none;
+    padding: 10px;
+}
+.education a:hover {
+    color: #606060;
+}
+.choose {
+    border: 1px solid;
+}
+/* План обучения */
+.ed-plan {
+    margin: 0 auto;
+    max-width: 990px;
+}
+.ed-plan h2 {
+    text-align: center;
+}
+.ed-plan p {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.ed-plan a {
+    text-decoration: none;
+    color: #FFBCBC;
+    transition: color 0.5s ease-in;
+}
+.ed-plan a:hover {
+    color: #b22828;
+}
+.page-footer {
+    padding: 40px 0 40px;
+    background-color: #363636;
+}
+.hfbox p {
+    color: #cacaca;
+}
+/* Библиотека */
+.library h1 {
+    font-family: "Tahoma", "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.library p {
+    font-family: "Tahoma", "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 150px;
+}
+.library a {
+    text-decoration: none;
+    margin: 10px 0 10px;
+    color: #FFBCBC;
+    transition: color 0.5s ease-in;
+}
+.library a:hover {
+    color: #b22828;
+}
+.library h2 {
+    font-family: "Tahoma", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.lib_img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+figcaption {
+    text-align: center;
+    margin: 15px 0 100px;
+}
